@@ -1,0 +1,13 @@
+'{'
+    "fields": '{'
+       "project":
+       '{' 
+          "key": "{0}"
+       '}',
+       "summary": "{1}",
+       "description": "{2}",
+       "issuetype": '{'
+          "name": "{3}"
+       '}'
+	   '}'
+'}'
