@@ -39,7 +39,7 @@ public class JiraIssue {
 			AsynchronousJiraRestClientFactory factory = new AsynchronousJiraRestClientFactory();
 	        @SuppressWarnings("deprecation")
 	        URI jiraServerUri = new URI("https://hikeapp.atlassian.net/");
-	        BasicHttpAuthenticationHandler objBasicHttpAuthenticationHandler = new BasicHttpAuthenticationHandler("surbhi", "hike@123");
+	        BasicHttpAuthenticationHandler objBasicHttpAuthenticationHandler = new BasicHttpAuthenticationHandler("replace-username", "replace-password");
 	        final JiraRestClient restClient = factory.create(jiraServerUri, objBasicHttpAuthenticationHandler);
 	         try
 	         {
